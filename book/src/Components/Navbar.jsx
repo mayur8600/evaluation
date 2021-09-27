@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Navbar() {
+
     return (
         <div>
-            <input type="text"  placeholder="Enter Book Name"/>
+            Book Name:<input type="text"  placeholder="Enter Book Name"/>
+            <button onClick={handleBookName}>search</button>
         </div>
     )
 }
