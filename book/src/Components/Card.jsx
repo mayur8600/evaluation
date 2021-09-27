@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
 
-function Card() {
+function Card({data}) {
+
     return (
         <div>
-            <Navbar/>
+            <p>{data.title}</p>
+
         </div>
     )
 }
